@@ -1,7 +1,41 @@
+@font-face{
+    font-family: 'FerrusClassic';
+    src: url('https://blairyuezhang.github.io/web_advanced/FerrusClassicBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ace_content{
+    font-family: 'FerrusClassic';
+}
+
 body{
     background-color: #FE8801;
 }
 
 div{
+    margin-top: 20%;
     color: #0000FF;
+    font-family: 'FerrusClassic';
+    font-size: 700%;
+    text-align: center;
+    
+}
+
+a:link {
+    font-family: 'FerrusClassic'
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
 }
