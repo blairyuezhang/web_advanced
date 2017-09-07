@@ -23,7 +23,7 @@ div{
 }
 
 a:link {
-    font-family: 'FerrusClassic'
+    font-family: 'FerrusClassic';
     background-color: transparent; 
     text-decoration: none;
 }
