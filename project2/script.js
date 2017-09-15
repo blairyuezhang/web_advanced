@@ -31,7 +31,7 @@ for (var i=0; i<7; i++){
 
 
 var cartimer=0;
-
+setTimeout(function(){
 for (var c=0; c<80; c++){
      setTimeout(function() {
    
@@ -53,7 +53,7 @@ for (var c=0; c<80; c++){
          console.log(cartype);
 }, cartimer)
 cartimer += 100;
-}
+}}, 3000)
 
 
 var growtime = 0;
