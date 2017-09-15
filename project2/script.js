@@ -9,9 +9,81 @@ var number = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15",
 for (var h = 0; h < heart.length; h++){
     for (var n = 0; n < number.length; n++) {
         if (number[n]%2==0) {
-            console.log(heart[0]+heart[1]+heart[2]+heart[3])
+            console.log(heart[0]+heart[1]+heart[2]+heart[3]);
         }else{
-            console.log(heart[h]+heart[h]+heart[h]+heart[h]+heart[h]+heart[h]+heart[h])
+            console.log(heart[h]+heart[h]+heart[h]+heart[h]+heart[h]+heart[h]+heart[h]);
         }
     }
     }
+    
+for (var i=0; i<7; i++){
+    
+    var outputstring = "";
+    
+    for (var x=0; x<8; x++){
+        outputstring += heart[3];
+    }
+    
+    console.log(outputstring);
+
+    
+}
+
+
+var cartimer=0;
+
+for (var c=0; c<80; c++){
+     setTimeout(function() {
+   
+         var cartype="";
+             for (var cn=0; cn<70; cn++){
+                      var carrace = Math.random()*100;
+                     if (carrace<10){
+                        cartype += "🚚🚛";
+                      }else if (carrace>10 && carrace<20){
+                        cartype += "🚓";
+                       }else if (carrace>20 && carrace<50){
+                           cartype +="🚗";
+                       }else if (carrace>50 && carrace<80){
+                           cartype +="🏎️";
+                       }else {
+                           cartype +=" ";
+                       }
+         }
+         console.log(cartype);
+}, cartimer)
+cartimer += 100;
+}
+
+
+var growtime = 0;
+
+setTimeout(function() {
+    for (var g=0; g<50;g++){
+    setTimeout(function() {
+        
+        var tree="";
+        
+        for (var gn=0; gn<40; gn++){
+           
+            var treegrow = Math.random()*50;
+           
+            if (treegrow<20){
+                tree += "🌱";
+            }else if (treegrow>20 && treegrow<30){
+                tree += "🌿";
+            }else if (treegrow>30 && treegrow<35){
+                tree += "🌳";
+            }else if (treegrow>35 && treegrow<45){
+                tree += "🌲";
+            }else {
+                tree += " ";
+            }
+        }
+        console.log(tree);
+    }, growtime)
+    
+
+    growtime += 300;
+}
+}, 15000)
