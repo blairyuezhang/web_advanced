@@ -30,60 +30,60 @@ for (var i=0; i<7; i++){
 }
 
 
-var cartimer=0;
-setTimeout(function(){
-for (var c=0; c<80; c++){
-     setTimeout(function() {
+// var cartimer=0;
+// setTimeout(function(){
+// for (var c=0; c<80; c++){
+//      setTimeout(function() {
    
-         var cartype="";
-             for (var cn=0; cn<70; cn++){
-                      var carrace = Math.random()*100;
-                     if (carrace<10){
-                        cartype += "🚚🚛";
-                      }else if (carrace>10 && carrace<20){
-                        cartype += "🚓";
-                       }else if (carrace>20 && carrace<50){
-                           cartype +="🚗";
-                       }else if (carrace>50 && carrace<80){
-                           cartype +="🏎️";
-                       }else {
-                           cartype +=" ";
-                       }
-         }
-         console.log(cartype);
-}, cartimer)
-cartimer += 100;
-}}, 3000)
+//          var cartype="";
+//              for (var cn=0; cn<70; cn++){
+//                       var carrace = Math.random()*100;
+//                      if (carrace<10){
+//                         cartype += "🚚🚛";
+//                       }else if (carrace>10 && carrace<20){
+//                         cartype += "🚓";
+//                       }else if (carrace>20 && carrace<50){
+//                           cartype +="🚗";
+//                       }else if (carrace>50 && carrace<80){
+//                           cartype +="🏎️";
+//                       }else {
+//                           cartype +=" ";
+//                       }
+//          }
+//          console.log(cartype);
+// }, cartimer)
+// cartimer += 100;
+// }}, 3000)
 
 
-var growtime = 0;
+// var growtime = 0;
 
-setTimeout(function() {
-    for (var g=0; g<50;g++){
-    setTimeout(function() {
+// setTimeout(function() {
+//     for (var g=0; g<50;g++){
+//     setTimeout(function() {
         
-        var tree="";
+//         var tree="";
         
-        for (var gn=0; gn<40; gn++){
+//         for (var gn=0; gn<40; gn++){
            
-            var treegrow = Math.random()*50;
+//             var treegrow = Math.random()*50;
            
-            if (treegrow<20){
-                tree += "🌱";
-            }else if (treegrow>20 && treegrow<30){
-                tree += "🌿";
-            }else if (treegrow>30 && treegrow<35){
-                tree += "🌳";
-            }else if (treegrow>35 && treegrow<45){
-                tree += "🌲";
-            }else {
-                tree += " ";
-            }
-        }
-        console.log(tree);
-    }, growtime)
+//             if (treegrow<20){
+//                 tree += "🌱";
+//             }else if (treegrow>20 && treegrow<30){
+//                 tree += "🌿";
+//             }else if (treegrow>30 && treegrow<35){
+//                 tree += "🌳";
+//             }else if (treegrow>35 && treegrow<45){
+//                 tree += "🌲";
+//             }else {
+//                 tree += " ";
+//             }
+//         }
+//         console.log(tree);
+//     }, growtime)
     
 
-    growtime += 300;
-}
-}, 15000)
+//     growtime += 300;
+// }
+// }, 15000)
