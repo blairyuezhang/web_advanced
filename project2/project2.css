@@ -1,11 +1,34 @@
-.bg{
+body{
+    margin-left: 15%;
+    padding-top: 100px;
+    margin-right: 15%;
+    background: #FE8801;
+}
+
+
+img{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+div{
     margin: 0;
-    padding-top: 500px;
+    margin-bottom: 30px;
+    padding: 0;
     width: 100%;
-    height: 580px;
-    background:#FEC5C5;
-    font-size: 100px;
-    font-family: monospace;
-    color: white;
-    text-align: center
+    height: 184px;
+}
+
+#b, #d, #f, #h{
+    position: absolute;
+    right: 15%;
+}
+
+#heart{
+    margin-top: 80px;
+    position: absolute;
+    left: 45%;
 }
