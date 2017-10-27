@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   function hidebg2(){
     $("#bg2").fadeOut(2000);
-    $("#button1").fadeOut(2000);
+    $("#button1").fadeOut();
     $("#button2").fadeIn(2000);
   }
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
   function hidestroke(){
     $("#stroke").fadeOut(2000);
-    $("#button2").fadeOut(2000);
+    $("#button2").fadeOut();
     $("#button3").fadeIn(2000);
   }
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
 
   function hideblue(){
     $("#blue").fadeOut(2000);
-    $("#button3").fadeOut(2000);
+    $("#button3").fadeOut();
     $("#button4").fadeIn(2000);
   }
 
@@ -52,7 +52,7 @@ $(document).ready(function(){
 
   function hidelight(){
     $("#lightp").fadeOut(2000);
-    $("#button4").fadeOut(2000);
+    $("#button4").fadeOut();
     $("#button5").fadeIn(2000);
   }
 
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
   function hidedark(){
     $("#darkp").fadeOut(2000);
-    $("#button5").fadeOut(2000);
+    $("#button5").fadeOut();
   }
 
   setTimeout(function(){
