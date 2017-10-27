@@ -1,0 +1,61 @@
+body, * {
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.draw{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.number{
+  position: absolute;
+  left: 5%;
+  width: 5%;
+  cursor: pointer;
+}
+
+#button1{
+  top: 10vh;
+}
+
+#button2{
+  top: 20vh;
+  display: none;
+}
+
+#button3{
+  top: 30vh;
+  display: none;
+}
+
+#button4{
+  top: 40vh;
+  display: none;
+}
+
+#button5{
+  top: 50vh;
+  display: none;
+}
+
+div{
+  position: absolute;
+  left: 0;
+  top: 70vh;
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 200%;
+
+}
