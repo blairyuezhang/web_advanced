@@ -4,7 +4,12 @@ $(document).ready(function(){
     $("#bg2").eraser({
       size: 30,
       completeRatio: .1,
-      completeFunction: hidebg2
+      completeFunction: hidebg2,
+      progressFunction: function(p){
+        var progressSoFar = Math.round(p * 100) + '%';
+        console.log(Math.round(p * 100) + '%');
+        Cookies.set("currentState", {completeRatio: "progressSoFar"}, {expires:10});
+      }
     });
   });
 
@@ -17,8 +22,13 @@ $(document).ready(function(){
   $("#button2").click(function(event){
     $("#stroke").eraser({
       size: 50,
-      completeRatio: .2,
-      completeFunction: hidestroke
+      completeRatio: .1,
+      completeFunction: hidestroke,
+      progressFunction: function(p){
+        var progressSoFar = Math.round(p * 100) + '%';
+        console.log(Math.round(p * 100) + '%');
+        Cookies.set("currentState", {completeRatio: "progressSoFar"}, {expires:10});
+      }
     });
   });
 
@@ -26,12 +36,27 @@ $(document).ready(function(){
     $("#stroke").fadeOut(2000);
     $("#button2").fadeOut();
     $("#button3").fadeIn(2000);
+
+    // Cookie.set("currentState", 0.2, {expires: 30})
+
+    /*
+    $('#yourImage').eraser( {
+    	progressFunction: function(p) {
+    		console.log(Math.round(p * 100) + '%');
+        var progressSoFar = p*100
+
+        Cookie.set("currentState", progressSoFar, {expires: 30})
+    	}
+    });
+
+
+    */
   }
 
   $("#button3").click(function(event){
     $("#blue").eraser({
       size: 50,
-      completeRatio: .2,
+      completeRatio: .1,
       completeFunction: hideblue
     });
   });
@@ -59,7 +84,7 @@ $(document).ready(function(){
   $("#button5").click(function(event){
     $("#darkp").eraser({
       size: 50,
-      completeRatio: .2,
+      completeRatio: .05,
       completeFunction: hidedark
     });
   });
