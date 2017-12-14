@@ -11,59 +11,69 @@ body{
   height: 100vh;
 }
 
-.draw{
+#coffee{
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
 }
 
-#bg{
-  height: 100vh;
-}
-
-#bg2{
-  height: 100vh;
-}
-
-.number{
-  position: absolute;
-  left: 5%;
-  width: 5%;
-  cursor: pointer;
-}
-
-#button1{
-  top: 10vh;
-}
-
-#button2{
-  top: 20vh;
-  display: none;
-}
-
-#button3{
-  top: 30vh;
-  display: none;
-}
-
-#button4{
-  top: 40vh;
-  display: none;
-}
-
-#button5{
-  top: 50vh;
-  display: none;
-}
-
-div{
+#coldbrew{
   position: absolute;
   left: 0;
-  top: 70vh;
+  top: 0;
   width: 100%;
-  text-align: center;
-  font-family: monospace;
-  font-size: 200%;
+  display: none;
+}
 
+#icelatte{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+#cbl{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.circle{
+  position: absolute;
+  top: 90vh;
+  z-index: 2;
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  background: white;
+}
+
+#coldbrewbutton{
+  left: 48%;
+}
+
+#cblbutton{
+  left: 40%;
+}
+
+#icelattebutton{
+  left: 56%;
+}
+
+#counttime{
+  position: absolute;
+  left: 0;
+  top: 5vh;
+  z-index: 2;
+  width: 95%;
+  font-family: monospace;
+  font-size: 300%;
+  text-align: right;
+  color: white;
 }

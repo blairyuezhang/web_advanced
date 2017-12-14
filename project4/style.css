@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'prestige';
+    src: url('PrestigeEliteStd-Bd.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, * {
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+}
+
+#ani{
+  position: absolute;
+  left: 1%;
+  top: 1vh;
+  width: 100%;
+  z-index: 20;
+}
+
+#pearl1{
+  position: absolute;
+  left: 10%;
+  top: 20vh;
+  width: 3%;
+}
+
+#pearl2{
+  position: absolute;
+  left: 26%;
+  top: 5vh;
+  width: 5%;
+}
+
+#pearl3{
+  position: absolute;
+  left: 42%;
+  top: 32vh;
+  width: 4%;
+}
+
+#pearl4{
+  position: absolute;
+  left: 60%;
+  top: 59vh;
+  width: 4%;
+}
+
+#pearl5{
+  position: absolute;
+  left: 72%;
+  top: 80vh;
+  width: 9%;
+}
+
+#pearl6{
+  position: absolute;
+  left: 27%;
+  top: 68vh;
+  width: 7.8%;
+}
+
+#pearl7{
+  position: absolute;
+  left: 79%;
+  top: 20vh;
+  width: 3%;
+}
+
+#pearl8{
+  position: absolute;
+  left: 10%;
+  top: 48vh;
+  width: 8%;
+}
+
+.typewrite{
+  position: absolute;
+  left: 0;
+  top: 40vh;
+  width: 100%;
+  font-family: prestige;
+  font-size: 80%;
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  display: none;
+}
+
+#blair{
+  display: inline;
+}
+
+#thoughtsNY{
+  color: white;
+}
+
+#thoughtsVC{
+  color: white;
+}
+
+#thoughtsBJ{
+  color: red;
+}
